@@ -1,12 +1,19 @@
 {
     "name": "soap",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "description": "A minimal node SOAP client",
     "engines": { "node": ">=0.8.0" },
     "author": "Vinay Pulim <v@pulim.com>",
+    "contributors": [
+        {
+          "name": "Markus M. May",
+          "email": "mmay@javafreedom.org",
+          "web": "http://www.javafreedom.org"
+        }
+    ],
     "dependencies": {
-        "node-expat": ">=1.6.1",
-        "request": ">=2.9.0"
+        "node-expat": "~2",
+        "request": "~2.16"
     },
     "repository" : { 
         "type":"git", 
