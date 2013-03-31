@@ -1,3 +1,10 @@
+This module is a fork from [node-soap](http://github.com/milewise/node-soap) with some dirty hacks, to make the
+[sympa-soap](http://www.sympa.org/manual/soap) services run.
+
+For Sympa to run, we adopted the build of namespaces (obviously perl soap lite treats this differently then the standard SOAP), and
+also we adopted the parameter handling. For the parameter handling to work, the parameters need to be named using the array variable
+name "parameters".
+
 This module lets you connect to web services using SOAP.  It also provides a server that allows you to run your own SOAP services.
 
 Features:
@@ -43,7 +50,7 @@ Install with [npm](http://github.com/isaacs/npm):
                   };
               }
 
-              // This is how to define an asynchronous function.  
+              // This is how to define an asynchronous function.
               MyAsyncFunction: function(args, callback) {
                   // do some work
                   callback({
