@@ -1,6 +1,6 @@
 {
     "name": "soap-sympa",
-    "version": "0.1",
+    "version": "0.0.1",
     "description": "A fork to provide SOAP capabilities to node to use the Sympa SOAP interface. This fork has some very dirty hacks inside and is based on the node SOAP client",
     "engines": { "node": ">=0.8.0" },
     "author": "Vinay Pulim <v@pulim.com>",
